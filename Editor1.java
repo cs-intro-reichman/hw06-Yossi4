@@ -25,6 +25,8 @@ public class Editor1 {
 		} else if (action.equals("gs")) {
 			imageOut = Runigram.grayScaled(imageIn);
 		}
+		Runigram.print(imageOut);
+
 		// Creates a canvas in which both images will be displayed, one after the other.
 		// Next, displays the input image, and pauses for a few seconds. 
 		// Finally, displays the output image.
